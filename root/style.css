@@ -32,7 +32,6 @@ body {
     margin: 0 auto;
     border: 1px solid rgb(246, 255, 225);
     background-color: #e7e7e7;
-    
 }
 
 #box {
@@ -41,7 +40,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: skew .0004s linear 0s infinite; 
+    animation: skew 4s linear 0s infinite; 
 }
 
 .face2 {

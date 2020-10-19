@@ -22,7 +22,6 @@ body {
     color: blanchedalmond;
     font-size: 1em;
     text-align: right;
-    border: 2px solid rebeccapurple;
 }
 
 #box * {
@@ -32,6 +31,8 @@ body {
     backface-visibility: visible;
     margin: 0 auto;
     border: 1px solid rgb(246, 255, 225);
+    background-color: #e7e7e7;
+    
 }
 
 #box {
@@ -45,27 +46,22 @@ body {
 
 .face2 {
     transform: translateZ(150px);
-    background-color: crimson;
 }
 
 .face3 {
     transform: rotateX(90deg) translateZ(75px) translateY(75px);
-    background-color: darkgreen;
 }
 
  .face4 {
     transform: rotateX(90deg) translateY(75px) translateZ(-75px);
-    background-color: darkslategray;
 } 
  
 .face5 {
     transform: rotateY(-90deg) translateX(75px) translateZ(75px);
-    background-color: #e7e7e7;
 }
 
 .face6 {
     transform: rotateY(90deg) translateX(-75px) translateZ(75px);
-    background-color: #e7e7e7;
 }
 @keyframes skew {
     0% {
